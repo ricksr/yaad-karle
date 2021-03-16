@@ -10,9 +10,9 @@
     "start": "nodemon server.js",
     "generate-docs": "jsdoc -r . -d docs -c jsdoc.conf README.md"
   },
-  "author": "Mehul Agarwal <agarwalmehul92@gmail.com>",
+  "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/agarwalmehul/node-api-es7-starter.git",
+  "homepage": "",
   "dependencies": {
     "@m92/express-utils": "0.0.68",
     "body-parser": "^1.19.0",
