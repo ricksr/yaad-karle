@@ -1,5 +1,5 @@
 How to start the server:
-
+<pre>
 npm i 
 
 export PORT=8080
@@ -13,3 +13,4 @@ export AAUTH_ENDPOINT=
 export AAUTH_API_KEY=
 npm start
 node server.js
+</pre>
