@@ -4,12 +4,12 @@ import { mongoose } from '@m92/mongo-odm'
 
 const {
   MONGO_DBNAME = '',
-  MONGO_HOSTS = '',
+  MONGO_HOSTS = 'localhost:27017',
 } = process.env
 
 const REQUIRED_CONFIG = [
-  'MONGO_DBNAME',
-  'MONGO_HOSTS',
+  // 'MONGO_DBNAME',
+  // 'MONGO_HOSTS',
 ]
 
 REQUIRED_CONFIG.forEach(key => {
